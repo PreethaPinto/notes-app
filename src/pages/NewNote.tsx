@@ -1,8 +1,10 @@
+import NoteForm from "../components/NoteForm"
 
 const NewNote = () => {
   return (
-    <div>New</div>
-  )
+<>
+<NoteForm />
+</>  )
 }
 
 export default NewNote

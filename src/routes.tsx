@@ -1,7 +1,6 @@
 import { Navigate, createBrowserRouter } from "react-router-dom";
-import Home from "./pages/Home";
-import New from "./pages/NewNote";
-import NewNote from "./pages/NewNote";
+import Home from "./pages/Home/Home";
+import NewNote from "./pages/NewNote/NewNote";
 
 export const router = createBrowserRouter([
     {path: '/', element: <Home/>},

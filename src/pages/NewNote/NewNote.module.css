@@ -9,7 +9,7 @@
     .note {
       display: flex;
       justify-content: center;
-      height: 70vh;
+      align-items: center;
       padding: 50px;
       background-color:bisque !important;
 }
